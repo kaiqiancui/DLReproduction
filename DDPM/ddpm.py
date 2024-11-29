@@ -82,3 +82,5 @@ class DDPM():
         x_t = mean + noise
         
         return x_t
+   
+    
