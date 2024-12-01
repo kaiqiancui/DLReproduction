@@ -1,8 +1,8 @@
 #训练算法
 import torch
 import torch.nn as nn
-from DL_Reproduction.DDPM.dataset import get_dataloader, get_img_shape
-from DL_Reproduction.DDPM.ddpm import DDPM
+from DLReproduction.DDPM.dataset import get_dataloader, get_img_shape
+from DLReproduction.DDPM.ddpm import DDPM
 import cv2
 import numpy as np
 import einops
