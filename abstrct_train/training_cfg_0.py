@@ -1,3 +1,6 @@
+#不使用命令行传递命令行参数
+#把训练参数写入文件里
+
 from dataclasses import dataclass
 
 
