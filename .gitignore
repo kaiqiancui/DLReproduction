@@ -1,0 +1,93 @@
+# macOS 系统文件
+.DS_Store
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+._*
+
+# 临时文件
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+
+# IDE 相关
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.sublime-workspace
+
+# Python 环境
+venv/
+env/
+.venv/
+pyenv/
+.python-version
+pip-log.txt
+
+# Python 编译文件
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.coverage
+htmlcov/
+
+# 数据/模型文件（默认忽略大文件）
+data/
+datasets/
+models/
+checkpoints/
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.bin
+*.onnx
+*.npz
+
+# 日志和输出
+logs/
+*.log
+*.tensorboard
+*.tb
+*.events.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_*
+
+# 本地配置文件
+.env
+.local.env
+config/local.yaml
+setup.cfg
+
+# 包管理（根据实际情况调整）
+requirements.txt
+Pipfile.lock
+poetry.lock
+
+# 测试相关
+.pytest_cache/
+.mypy_cache/
+.pytest_report.html
+
+# 深度学习框架特殊文件
+*.tfr
+*.tfrecords
+events.out.tfevents.*
+lightning_logs/
+wandb/
+
+# 压缩文件（按需取消注释）
+# *.zip
+# *.tar.gz
+# *.7z
